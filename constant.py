@@ -1,13 +1,13 @@
 info = {
-   "Pronoun": "her", 
-   "Name": "Vicky",
-   "Full_Name": "Vicky Kuo",
-   "Intro": "A Tech Educator and AI Enthusiast at cognitiveclass.ai",
-   "About":"Hey there, I'm Vicky! I'm passionate about leveraging data and technology to drive meaningful insights and solutions in business. Check out my free courses and projects on cognitiveclass.ai: https://cognitiveclass.ai/",
-   "Tableau":"https://public.tableau.com/app/profile/vickytc/viz/SunnybrookTeam/Overview",
-   "Medium":"https://medium.com/@vicky-note/about",
-   "City":"Toronto, Canada",
-   "Photo":"""<a href=\"https://www.linkedin.com/in/vicky-tck/\"><img src=\"https://sn-assets.s3.us.cloud-object-storage.appdomain.cloud/projects/profile.png" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
+   "Pronoun": "He/Him", 
+   "Name": "Ahmed",
+   "Full_Name": "Ahmed Suliman",
+   "Intro": "A slightly crazy writer and Bioprocess Engineer at Multus",
+   "About":"Hey there, I'm Ahmed! I'm far too passionate about too many interests; Food, Climate, Creative writing, Bioprocess Engineering... you get the gig, stick around to see how I manage to maintain meaningful progress/impact in all of these areas",
+   "Tableau":"",
+   "Medium":"",
+   "City":"London, UK",
+   "Photo":"""<a href=\"https://www.linkedin.com/in/ahmed-s-284733162/\"><img src=\"https://media.licdn.com/dms/image/D4E03AQEY--UOpoHc0w/profile-displayphoto-shrink_800_800/0/1694731876592?e=1727913600&v=beta&t=7UY9nT1baQKcLfkAaKDG6WRk0edkXdiTTih0eiPiYzw" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
    "Email": "vicky.kuo.contact@gmail.com"
 }
 
