@@ -13,7 +13,7 @@ st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 
 # -----------------  chatbot  ----------------- #
 # Set up the OpenAI key
-openai_api_key = st.sidebar.text_input('sk-proj-FauLnpNUJRk0C82FKTgtT3BlbkFJWND9cWGYGjVF9ZenS9ky', type="password")
+openai_api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter', type="password")
 openai.api_key = (openai_api_key)
 
 # load the file
