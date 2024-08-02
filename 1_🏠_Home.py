@@ -10,6 +10,19 @@ import openai
 from langchain.chat_models import ChatOpenAI
 
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
+st.markdown(
+    """
+    <style>
+    .transparent-container {
+        background-color: rgba(255, 255, 255, 0.0) !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 
 # -----------------  loading assets  ----------------- #
