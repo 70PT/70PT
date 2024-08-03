@@ -43,13 +43,13 @@ local_css("style/style.css")
 # loading assets
 lottie_gif = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_x17ybolp.json")
 python_lottie = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_2znxgjyt.json")
-java_lottie = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_zh6xtlj9.json")
+es_lottie = load_lottieurl("https://lottie.host/9792a89c-fc30-4731-8ff8-4bc4bb4f52d1/j2WhPYASbI.json")
 my_sql_lottie = load_lottieurl("https://assets4.lottiefiles.com/private_files/lf30_w11f2rwn.json")
-git_lottie = load_lottieurl("https://assets9.lottiefiles.com/private_files/lf30_03cuemhb.json")
+bioprocess_lottie = load_lottieurl("https://lottie.host/04857e83-146d-4368-b732-8951a1ab0019/5aJJh1w3a1.json")
 github_lottie = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_6HFXXE.json")
 docker_lottie = load_lottieurl("https://assets4.lottiefiles.com/private_files/lf30_35uv2spq.json")
 figma_lottie = load_lottieurl("https://lottie.host/5b6292ef-a82f-4367-a66a-2f130beb5ee8/03Xm3bsVnM.json")
-js_lottie = load_lottieurl("https://lottie.host/c8eed78d-e2ed-4276-8fc7-260202be4a6d/uoL4x2yGZY.json")
+cm_lottie = load_lottieurl("https://lottie.host/c8eed78d-e2ed-4276-8fc7-260202be4a6d/uoL4x2yGZY.json")
 
 
 
@@ -76,32 +76,32 @@ with col2:
 
 # ----------------- skillset ----------------- #
 with st.container():
-    st.subheader('⚒️ Skills')
+    st.subheader('⚒️ Skills I\'m working on')
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     with col1:
         st_lottie(python_lottie, height=70, width=70, key="python", speed=2.5)
-        st.write("test")
+        st.write("Python")
     with col2:
-        st_lottie(java_lottie, height=70,width=70, key="java", speed=4)
-        st.write("test")
+        st_lottie(es_lottie, height=70,width=70, key="java", speed=4)
+        st.write("Embedded Systems")
     with col3:
         st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
-        st.write("test")
+        st.write("Databases")
     with col4:
-        st_lottie(git_lottie,height=70,width=70, key="git", speed=2.5)
-        st.write("test")
-    with col1:
-        st_lottie(github_lottie,height=50,width=50, key="github", speed=2.5)
-        st.write("test")
-    with col2:
-        st_lottie(docker_lottie,height=70,width=70, key="docker", speed=2.5)
-        st.write("test")
-    with col3:
-        st_lottie(figma_lottie,height=50,width=50, key="figma", speed=2.5)
-        st.write("test")
-    with col4:
-        st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
-        st.write("test")
+        st_lottie(bioprocess_lottie,height=70,width=70, key="git", speed=2.5)
+        st.write("Bioprocess Scale Up and Design")
+    # with col1:
+    #     st_lottie(github_lottie,height=50,width=50, key="github", speed=2.5)
+    #     st.write("test")
+    # with col2:
+    #     st_lottie(docker_lottie,height=70,width=70, key="docker", speed=2.5)
+    #     st.write("test")
+    # with col3:
+    #     st_lottie(figma_lottie,height=50,width=50, key="figma", speed=2.5)
+    #     st.write("test")
+    # with col4:
+    #     st_lottie(cm_lottie,height=50,width=50, key="js", speed=1)
+    #     st.write("Cultivated Meat Ops and R&D")
     
     
 # ----------------- timeline ----------------- #
