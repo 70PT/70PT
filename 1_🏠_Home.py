@@ -49,7 +49,7 @@ git_lottie = load_lottieurl("https://assets9.lottiefiles.com/private_files/lf30_
 github_lottie = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_6HFXXE.json")
 docker_lottie = load_lottieurl("https://assets4.lottiefiles.com/private_files/lf30_35uv2spq.json")
 figma_lottie = load_lottieurl("https://lottie.host/5b6292ef-a82f-4367-a66a-2f130beb5ee8/03Xm3bsVnM.json")
-# js_lottie = load_lottieurl("https://app.lottiefiles.com/animation/45e48ac9-25dd-4b2d-87aa-3b70d942fe7d")
+js_lottie = load_lottieurl("https://lottie.host/embed/c8eed78d-e2ed-4276-8fc7-260202be4a6d/uoL4x2yGZY.json")
 
 
 
