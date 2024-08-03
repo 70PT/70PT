@@ -95,7 +95,7 @@ with st.container():
             <div style="text-align: center;">
                 <div style="margin-top: -40px; margin-left: 0px;">Embedded systems (Arduino and Rasberry Pi)</div>
             </div>
-            """.format(st_lottie(es_lottie, height=200, width=2--, key="es_lottie", speed=1)),
+            """.format(st_lottie(es_lottie, height=200, width=200, key="es_lottie", speed=1)),
             unsafe_allow_html=True
         )
 
