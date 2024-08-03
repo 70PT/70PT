@@ -93,7 +93,7 @@ with st.container():
         st.markdown(
             """
             <div style="text-align: center;">
-                <div style="margin-top: -40px; margin-left: 0px;">Embedded systems (Arduino and Rasberry Pi)</div>
+                <div style="margin-top: -90px; margin-left: 0px;">Embedded systems (Arduino and Rasberry Pi)</div>
             </div>
             """.format(st_lottie(es_lottie, height=200, width=200, key="es_lottie", speed=1)),
             unsafe_allow_html=True
@@ -103,7 +103,7 @@ with st.container():
         st.markdown(
             """
             <div style="text-align: center;">
-                <div style="margin-top: -40px; margin-left: 0px;">Databases (mostly SQL)</div>
+                <div style="margin-top: -90px; margin-left: 0px;">Databases (mostly SQL)</div>
             </div>
             """.format(st_lottie(my_sql_lottie, height=200, width=200, key="my_sql_lottie", speed=1)),
             unsafe_allow_html=True
@@ -112,7 +112,7 @@ with st.container():
         st.markdown(
             """
             <div style="text-align: center;">
-                <div style="margin-top: -40px; margin-left: 0px;">Bioprocess Scale Up</div>
+                <div style="margin-top: -40px; margin-left: -40px;">Bioprocess Scale Up</div>
             </div>
             """.format(st_lottie(bioprocess_lottie, height=150, width=150, key="bioprocess_lottie", speed=1)),
             unsafe_allow_html=True
