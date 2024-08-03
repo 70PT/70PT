@@ -103,7 +103,7 @@ with st.container():
         st.markdown(
             """
             <div style="text-align: center;">
-                <div style="margin-top: -90px; margin-left: 0px;">Databases (mostly SQL)</div>
+                <div style="margin-top: -80px; margin-left: 0px;">Databases (mostly SQL)</div>
             </div>
             """.format(st_lottie(my_sql_lottie, height=200, width=200, key="my_sql_lottie", speed=1)),
             unsafe_allow_html=True
