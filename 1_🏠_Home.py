@@ -86,6 +86,7 @@ with st.container():
         st.write("Embedded Systems")
     with col3:
         st_lottie(my_sql_lottie,height=150,width=150, key="mysql", speed=2.5)
+        st.markdown('<div style="text-align: center;">Centered Text in Column 1</div>', unsafe_allow_html=True)
         st.write("Databases")
     with col4:
         st_lottie(bioprocess_lottie,height=150,width=150, key="git", speed=2.5)
