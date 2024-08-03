@@ -79,23 +79,29 @@ with st.container():
     st.subheader('⚒️ Skills')
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     with col1:
-        st.markdown('<div class="transparent-container">', unsafe_allow_html=True)
         st_lottie(python_lottie, height=70, width=70, key="python", speed=2.5)
-        st.markdown('</div>', unsafe_allow_html=True)
+        st.write("test")
     with col2:
         st_lottie(java_lottie, height=70,width=70, key="java", speed=4)
+        st.write("test")
     with col3:
         st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
+        st.write("test")
     with col4:
         st_lottie(git_lottie,height=70,width=70, key="git", speed=2.5)
+        st.write("test")
     with col1:
         st_lottie(github_lottie,height=50,width=50, key="github", speed=2.5)
+        st.write("test")
     with col2:
         st_lottie(docker_lottie,height=70,width=70, key="docker", speed=2.5)
+        st.write("test")
     with col3:
         st_lottie(figma_lottie,height=50,width=50, key="figma", speed=2.5)
+        st.write("test")
     with col4:
         st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
+        st.write("test")
     
     
 # ----------------- timeline ----------------- #
