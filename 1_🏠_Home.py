@@ -79,8 +79,17 @@ with st.container():
     st.subheader('⚒️ Skills I\'m working on')
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     with col1:
-        st_lottie(python_lottie, height=150, width=150, key="python", speed=2.5)
-        st.write("Python")
+        # st_lottie(python_lottie, height=150, width=150, key="python", speed=2.5)
+        # st.write("Python")
+        st.markdown(
+            """
+            <div style="text-align: center;">
+                {animation3}
+                <div style="margin-top: -20px;">Python</div>
+            </div>
+            """.format(animation3=st_lottie(python_lottie, height=150, width=150, key="example_lottie3", speed=1)),
+            unsafe_allow_html=True
+        )
     with col2:
         st_lottie(es_lottie, height=150 ,width=150, key="java", speed=4)
         st.write("Embedded Systems")
