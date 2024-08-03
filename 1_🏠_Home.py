@@ -85,9 +85,9 @@ with st.container():
             """
             <div style="text-align: center;">
                 {animation3}
-                <div style="margin-top: -20px;">Python</div>
+                <div style="margin-top: -60px;">Python</div>
             </div>
-            """.format(animation3=st_lottie(python_lottie, height=150, width=150, key="python_lottie", speed=1)),
+            """.format(st_lottie(python_lottie, height=150, width=150, key="python_lottie", speed=1)),
             unsafe_allow_html=True
         )
     with col2:
