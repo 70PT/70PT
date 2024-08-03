@@ -1,9 +1,10 @@
 info = {
    "Pronoun": "He/Him", 
-   "Name": "Ahmed",
-   "Full_Name": "Ahmed Suliman",
+   "Name": "Ahmed Suliman",
+   "Full_Name": "Ahmed!",
    "Intro": "A slightly crazy writer and Bioprocess Engineer at Multus",
-   "About":"Hey there, I'm Ahmed! I'm far too passionate about too many interests; Food, Climate, Creative writing, Bioprocess Engineering... you get the gig, stick around to see how I manage to maintain meaningful progress/impact in all of these areas",
+   "About":"Hi there and welcome to my website! I'm far too passionate about too many interests; Food, Climate, Creative writing, Bioprocess Engineering... you get the gig. This page serves as some sort of accountability tool to help me see things to completion rather than endless ideating; I'll be logging my progress with a variety of personal
+   development courses on here and deploying some tools that could be useful. Every now and then I'll also write about topics that I find interesting. Stick around to see how I manage to maintain meaningful progress/impact in all of these areas and please give feedback if you have any!",
    "Tableau":"",
    "Medium":"",
    "City":"London, UK",
