@@ -90,14 +90,33 @@ with st.container():
             unsafe_allow_html=True
         )
     with col2:
-        st_lottie(es_lottie, height=150 ,width=150, key="java", speed=4)
-        st.write("Embedded Systems")
+        st.markdown(
+            """
+            <div style="text-align: left;">
+                <div style="margin-top: -40px; margin-left: 50px;">Embedded systems (Arduino and Rasberry Pi)</div>
+            </div>
+            """.format(st_lottie(es_lottie, height=150, width=150, key="es_lottie", speed=1)),
+            unsafe_allow_html=True
+        )
+
     with col3:
-        st_lottie(my_sql_lottie,height=150,width=150, key="mysql", speed=2.5)
-        st.markdown('<div style="text-align: center;">Databases (mostly SQL)</div>', unsafe_allow_html=True)
+        st.markdown(
+            """
+            <div style="text-align: left;">
+                <div style="margin-top: -40px; margin-left: 50px;">Databases (mostly SQL)</div>
+            </div>
+            """.format(st_lottie(my_sql_lottie, height=150, width=150, key="my_sql_lottie", speed=1)),
+            unsafe_allow_html=True
+        )
     with col4:
-        st_lottie(bioprocess_lottie,height=150,width=150, key="git", speed=2.5)
-        st.write("Bioprocess Scale Up and Design")
+        st.markdown(
+            """
+            <div style="text-align: left;">
+                <div style="margin-top: -40px; margin-left: 50px;">Bioprocess Scale Up</div>
+            </div>
+            """.format(st_lottie(bioprocess_lottie, height=150, width=150, key="bioprocess_lottie", speed=1)),
+            unsafe_allow_html=True
+        )
     # with col1:
     #     st_lottie(github_lottie,height=50,width=50, key="github", speed=2.5)
     #     st.write("test")
