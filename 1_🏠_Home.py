@@ -84,7 +84,6 @@ with st.container():
         st.markdown(
             """
             <div style="text-align: center;">
-                {animation3}
                 <div style="margin-top: -60px;">Python</div>
             </div>
             """.format(st_lottie(python_lottie, height=150, width=150, key="python_lottie", speed=1)),
