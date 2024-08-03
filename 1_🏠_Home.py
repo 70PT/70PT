@@ -92,27 +92,27 @@ with st.container():
     with col2:
         st.markdown(
             """
-            <div style="text-align: left;">
-                <div style="margin-top: -40px; margin-left: 50px;">Embedded systems (Arduino and Rasberry Pi)</div>
+            <div style="text-align: center;">
+                <div style="margin-top: -40px; margin-left: 0px;">Embedded systems (Arduino and Rasberry Pi)</div>
             </div>
-            """.format(st_lottie(es_lottie, height=150, width=150, key="es_lottie", speed=1)),
+            """.format(st_lottie(es_lottie, height=200, width=2--, key="es_lottie", speed=1)),
             unsafe_allow_html=True
         )
 
     with col3:
         st.markdown(
             """
-            <div style="text-align: left;">
-                <div style="margin-top: -40px; margin-left: 50px;">Databases (mostly SQL)</div>
+            <div style="text-align: center;">
+                <div style="margin-top: -40px; margin-left: 0px;">Databases (mostly SQL)</div>
             </div>
-            """.format(st_lottie(my_sql_lottie, height=150, width=150, key="my_sql_lottie", speed=1)),
+            """.format(st_lottie(my_sql_lottie, height=200, width=200, key="my_sql_lottie", speed=1)),
             unsafe_allow_html=True
         )
     with col4:
         st.markdown(
             """
-            <div style="text-align: left;">
-                <div style="margin-top: -40px; margin-left: 50px;">Bioprocess Scale Up</div>
+            <div style="text-align: center;">
+                <div style="margin-top: -40px; margin-left: 0px;">Bioprocess Scale Up</div>
             </div>
             """.format(st_lottie(bioprocess_lottie, height=150, width=150, key="bioprocess_lottie", speed=1)),
             unsafe_allow_html=True
