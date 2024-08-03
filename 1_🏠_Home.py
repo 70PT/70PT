@@ -79,16 +79,16 @@ with st.container():
     st.subheader('⚒️ Skills I\'m working on')
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     with col1:
-        st_lottie(python_lottie, height=70, width=70, key="python", speed=2.5)
+        st_lottie(python_lottie, height=150, width=150, key="python", speed=2.5)
         st.write("Python")
     with col2:
-        st_lottie(es_lottie, height=70,width=70, key="java", speed=4)
+        st_lottie(es_lottie, height=150 ,width=150, key="java", speed=4)
         st.write("Embedded Systems")
     with col3:
-        st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
+        st_lottie(my_sql_lottie,height=150,width=150, key="mysql", speed=2.5)
         st.write("Databases")
     with col4:
-        st_lottie(bioprocess_lottie,height=70,width=70, key="git", speed=2.5)
+        st_lottie(bioprocess_lottie,height=150,width=150, key="git", speed=2.5)
         st.write("Bioprocess Scale Up and Design")
     # with col1:
     #     st_lottie(github_lottie,height=50,width=50, key="github", speed=2.5)
