@@ -141,7 +141,7 @@ with st.container():
     timeline_url = "https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=121bT5tY_rAi3MZp5l7HA20_ocJnVI4-YvW06n7-nFQI&font=Default&lang=en&initial_zoom=2&height=650"
 
     # Set the height of the iframe
-    iframe_height = 650
+    iframe_height = 550
 
     # Embed the timeline using st.components.v1.iframe
     st.components.v1.iframe(timeline_url, height=iframe_height)
