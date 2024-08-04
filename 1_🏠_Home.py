@@ -28,7 +28,8 @@ st.markdown(
 
 
 # -----------------  loading assets  ----------------- #
-st.sidebar.markdown(image,unsafe_allow_html=True)
+st.sidebar.markdown(unsafe_allow_html=True)
+st.sidebar.image(image)
     
 def load_lottieurl(url: str):
     r = requests.get(url)
