@@ -114,7 +114,7 @@ with st.container():
             <div style="text-align: center;">
                 <div style="margin-top: -40px; margin-left: -40px;">Bioprocess Scale Up</div>
             </div>
-            """.format(st_lottie(bioprocess_lottie, height=150, width=150, key="bioprocess_lottie", speed=1)),
+            """.format(st_lottie(bioprocess_lottie, height=150, width=150, key="bioprocess_lottie", speed=2.5)),
             unsafe_allow_html=True
         )
     # with col1:
