@@ -7,7 +7,7 @@ info = {
    "Tableau":"",
    "Medium":"",
    "City":"London, UK",
-   "Photo":"""<a href=\"https://www.linkedin.com/in/ahmed-s-284733162/\"><img src=\"https://media.licdn.com/dms/image/D4E03AQEY--UOpoHc0w/profile-displayphoto-shrink_800_800/0/1694731876592?e=1727913600&v=beta&t=7UY9nT1baQKcLfkAaKDG6WRk0edkXdiTTih0eiPiYzw" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
+   "Photo":f"""<a href=\"https://www.linkedin.com/in/ahmed-s-284733162/\"><img src={'../images/Profile_Pice.png'})}"   alt=\"Profile\" title=\"Profile\"></a>""",
    "Email": "vicky.kuo.contact@gmail.com"
 }
 
