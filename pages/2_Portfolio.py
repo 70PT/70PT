@@ -10,9 +10,9 @@ local_css("style/style.css")
 
 st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
-st.title("📝 Resume")
+st.title("Portfolio")
 
-st.write("[Click here if it's blocked by your browser](https://cognitiveclass.ai/)")
+st.write("Things I've built")
 
 with open("images/resume.pdf","rb") as f:
       base64_pdf = base64.b64encode(f.read()).decode('utf-8')
