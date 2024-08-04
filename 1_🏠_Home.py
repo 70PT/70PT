@@ -9,6 +9,8 @@ from PIL import Image
 import openai
 from langchain.chat_models import ChatOpenAI
 
+image = Image.open("images/Profile Pic.jpg")
+
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 st.markdown(
     """
@@ -26,7 +28,7 @@ st.markdown(
 
 
 # -----------------  loading assets  ----------------- #
-st.sidebar.markdown(st.image("../images/Profile Pic.jpg"),unsafe_allow_html=True)
+st.sidebar.markdown(image,unsafe_allow_html=True)
     
 def load_lottieurl(url: str):
     r = requests.get(url)
