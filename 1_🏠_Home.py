@@ -26,7 +26,7 @@ st.markdown(
 
 
 # -----------------  loading assets  ----------------- #
-st.sidebar.markdown(st.image("../images/Profile Pic.png"),unsafe_allow_html=True)
+st.sidebar.markdown(st.image("../images/Profile Pic.jpg"),unsafe_allow_html=True)
     
 def load_lottieurl(url: str):
     r = requests.get(url)
