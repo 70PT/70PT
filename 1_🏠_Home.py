@@ -135,13 +135,26 @@ with st.container():
 with st.container():
     st.markdown("""""")
     st.subheader('📌 Career Snapshot')
+    import streamlit as st
 
-    # load data
-    with open('example.json', "r") as f:
-        data = f.read()
+    # Set the URL of the timeline you want to embed
+    timeline_url = "https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=121bT5tY_rAi3MZp5l7HA20_ocJnVI4-YvW06n7-nFQI&font=Default&lang=en&initial_zoom=2&height=650"
 
-    # render timeline
-    timeline(data, height=400)
+    # Set the height of the iframe
+    iframe_height = 650
+
+    # Embed the timeline using st.components.v1.iframe
+    st.components.v1.iframe(timeline_url, height=iframe_height)
+
+
+
+
+    # # load data
+    # with open('example.json', "r") as f:
+    #     data = f.read()
+
+    # # render timeline
+    # timeline(data, height=400)
 
 # -----------------  tableau  -----------------  #
 with st.container():
