@@ -7,7 +7,7 @@ info = {
    "Tableau":"",
    "Medium":"",
    "City":"London, UK",
-   "Photo":f"""<a href=\"https://www.linkedin.com/in/ahmed-s-284733162/\"><img src={'../images/Profile_Pice.png'}"   alt=\"Profile\" title=\"Profile\"></a>""",
+   "Photo":f"""<a href="https://www.linkedin.com/in/ahmed-s-284733162/"><img src="../images/Profile_Pice.png" alt="Profile" title="Profile"></a>""",
    "Email": "vicky.kuo.contact@gmail.com"
 }
 
