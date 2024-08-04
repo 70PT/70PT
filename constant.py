@@ -7,7 +7,7 @@ info = {
    "Tableau":"",
    "Medium":"",
    "City":"London, UK",
-   "Photo":f"""<a href="https://1drv.ms/i/c/734d114f5c1b039d/EQooGX7n3DlJkcC_x0ITlSsBFmqgxaba_A10WiJB5WXMfQ?e=u52477" alt="Profile" title="Profile"></a>""",
+   "Photo":f"""<a href="https://photos.onedrive.com/share/734D114F5C1B039D!s7e19280adce7493991c0bfc74213952b?cid=734D114F5C1B039D&resId=734D114F5C1B039D!s7e19280adce7493991c0bfc74213952b&ithint=photo&e=u52477&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2kvYy83MzRkMTE0ZjVjMWIwMzlkL0VRb29HWDduM0RsSmtjQ194MElUbFNzQkZtcWd4YWJhX0ExMFdpSkI1V1hNZlE_ZT11NTI0Nzc" alt="Profile" title="Profile"></a>""",
    "Email": "vicky.kuo.contact@gmail.com"
 }
 
