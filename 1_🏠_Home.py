@@ -103,29 +103,7 @@ with st.container():
         )
 
     with col3:
-
-            st.markdown(
-        """
-        <style>
-        .centered-text {
-            text-align: center;
-            margin-top: -80px;
-            margin-left: 0px;
-        }
-        .lottie-container {
-            display: flex;
-            justify-content: center;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-        )
-    
-        # Apply the CSS class to the text
-        st.markdown(
-        '<div class="centered-text">Databases (mostly SQL)</div>',
-        unsafe_allow_html=True
-        )
+            
             st.markdown(
                 """
                 <div style="text-align: center;">
